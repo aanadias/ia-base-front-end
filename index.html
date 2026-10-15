@@ -11,36 +11,47 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet"> 
+        rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 
 <body>
-    <div class="cabecalho__container">
+    <header class="cabecalho__container">
         <div class="cabecalho">
             <a href="" class="cabecalho__logo">
-                <img class="cabecalho__logo--icone" alt="" src="./img/logoprovisriabranca-1@2x.png" />
+                <img class="cabecalho__logo--icone" alt="Logo da Jornada" src="./img/logoprovisriabranca-1@2x.png" />
             </a>
-            <div class="cabecalho__navegacao">
-                <a class="cabecalho__navegacao--item" href="">Blog</a>
-                <a class="cabecalho__navegacao--item" href="">Pacotes de viagem</a>
-                <a class="cabecalho__navegacao--item" href="">Contato</a>
-            </div>
+            <nav class="cabecalho__navegacao" role="navigation" aria-label="Navegação principal">
+                <ul class="cabecalho__navegacao--lista">
+                    <li class="cabecalho__navegacao--item">
+                        <a href="">Blog</a>
+                    </li>
+                    <li class="cabecalho__navegacao--item">
+                        <a href="">Pacotes de viagem</a>
+                    </li>
+                    <li class="cabecalho__navegacao--item">
+                        <a href="">Contato</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-    </div>
+    </header>
 
-    <div class="banner">
+    <section class="banner">
         <div class="banner__wrapper">
-            <img class="banner__img" alt="" src="./img/maldivas@2x.png" />
-            <div class="banner__descricao">
-                Somos uma agência apaixonada por criar viagens inesquecíveis. Do
-                destino à seleção das atividades, cuidamos de todos os detalhes
-                para que você aproveite ao máximo cada momento da sua jornada!
-            </div>
+            <figure class="banner__img-wrapper">
+                <img class="banner__img" alt="Imagem das Maldivas" src="./img/maldivas@2x.png" />
+                <figcaption class="banner__img-descricao">
+                    Somos uma agência apaixonada por criar viagens inesquecíveis. Do
+                    destino à seleção das atividades, cuidamos de todos os detalhes
+                    para que você aproveite ao máximo cada momento da sua jornada!
+                </figcaption>
+            </figure>
         </div>
-    </div>
-    <div class="container">
+    </section>
+
+    <main class="container">
 
         <div class="ofertas">
             <div class="ofertas__titulo">
@@ -287,7 +298,7 @@
 
             </div>
         </div>
-    </div>
+    </main>
 
     <img class="pre-footer__image" alt="" src="./img/pre-footer-image.png" />
     
